@@ -71,7 +71,8 @@ fig5.update_layout(title='Top 10 Restaurants On Competitors',
                    yaxis_title='Total Orders')
 
 # Initialize the app
-app = dash.Dash(__name__)
+app =dash.Dash()
+server = app.server
 
 # Define the layout of the app
 app.layout = html.Div([
