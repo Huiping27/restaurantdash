@@ -11,7 +11,7 @@ server = app.server
 
 # set app layout
 
-app.layout = html.Div(html.H1('My First Dash'))   # creates header for website
+app.layout = html.Div(html.H1('RestaurantDash'))   # creates header for website
 
 if __name__ == '__main__':
      app.run_server()  # runs a local server for the website to run on
