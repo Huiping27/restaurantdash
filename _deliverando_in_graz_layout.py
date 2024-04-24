@@ -3,7 +3,7 @@ import dash
 from dash import html, dcc
 import plotly.graph_objs as go
 import pandas as pd
-
+import openpyxl as xl
 # Read data from CSV and Excel files
 deliverando = pd.read_csv('SalesAnalyst_deliverando.csv', sep=';')
 compe_1 = pd.read_excel('SalesAnalyst_Competition.xlsx', sheet_name='Month 1')
