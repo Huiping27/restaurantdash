@@ -76,7 +76,7 @@ server = app.server
 
 # Define the layout of the app
 app.layout = html.Div([
-    html.H1('Deliverando and Competitor in Graz'),
+    html.H1('Restaurant Delivery in Graz Analysis'),
 
     # First graph
     dcc.Graph(id='graph1', figure=fig1),
